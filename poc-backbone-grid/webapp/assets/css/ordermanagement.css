@@ -1,0 +1,175 @@
+
+.control-group .family{
+	font-family: Verdana;
+	font-weight: normal;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.form-inline div {
+    display: inline-block;
+    margin-right: 0;
+    padding-left: 0;
+    vertical-align: middle;
+}
+.form-inline label {
+    display: block;
+}
+
+
+/*********view detail view starts*********/
+#orderdetails{
+	margin: 0 auto;
+    padding: 10px 10px 50px;
+    width: 1004px;
+    background-color: #FFFFFF;
+    min-height: 600px;
+    font-family: Verdana;
+    font-style: normal;
+}
+#orderdetails h1{
+	font-size: 20px;
+	color: #666;
+	margin: 0px;
+}
+#orderdetails h2{
+	font-size: 14px;
+	display:inline;
+}
+
+#orderdetails .item1{
+	border: 1px solid #CCCCCC; 
+	background-color: #F5F8FC;
+    border-radius: 8px 8px 8px 8px;
+    height: auto;
+    margin-top: 12px;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	 font-size: 11px;
+}
+#orderdetails .item2{
+	color: #666666;
+    height: auto;
+    margin-top: 10px;
+    text-decoration: none;
+    width: 994px;
+}
+
+#orderdetails .item1 label{
+    line-height: 10px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+#orderdetails .item1 div{
+    line-height: 1;
+    font-weight: normal;
+}
+
+#orderdetails .item2 div{
+    font-size: 12px;
+    line-height: 3;
+}
+#orderdetails table{
+	margin-bottom: 0;
+    width: 100%;
+   	background-color: #FFFFFF;
+}
+#orderdetails table .bgcolorBase{
+	background-color: #FAFAFA;
+}
+#orderdetails table .bgcolorTitle{
+	background-color: #F5F8FC;
+}
+#orderdetails table .alignR{
+	text-align: right;
+}
+#orderdetails .control-group{
+	padding-right: 40px;
+}
+.picker img{
+	left: -24px;
+    position: relative;
+    top: -4px;
+    z-index: 999999;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-image: none;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 0;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    padding:6px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent { 
+	display: table;
+}
+.parent .child {
+	display: table-cell;
+}
+.spacer{
+	width:10px;
+}
+.headlineBorder{
+	border-bottom: 1px solid #CBDDF2;
+}
+#orderdetails .family{
+    font-family: Verdana;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12px;
+}
+#orderdetails .italic{
+    font-style: italic;
+    color: #333333;
+}
+#orderdetails .status-title{
+	color: #333333;
+    font-weight: bold;
+}
+#orderdetails .status-success{
+	color:#61BF1A;
+	font-weight: bold;
+}
+#orderdetails .status-pending{
+	color:#FF0000;
+}
+#orderdetails .button-group{
+	display: inline-block;
+    font-size: 0;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#orderdetails .buttons{
+	background-color: #FFFFFF;
+    border-width: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+/*********view detail view ends*********/

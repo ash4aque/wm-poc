@@ -1,0 +1,58 @@
+#reporting{
+	margin: 0 auto;
+    padding: 10px 10px 50px;
+    width: 1004px;
+    background-color: #FFFFFF;
+    min-height: 600px;
+    font-family: Verdana;
+    font-style: normal;
+}
+#reporting h1{
+	font-size: 20px;
+	color: #666;
+	margin: 0px;
+}
+#reporting .control-group .family{
+	font-family: Verdana;
+	font-weight: normal;
+    text-decoration: none;
+    font-size: 11px;
+}
+#reporting .form-inline div {
+    display: inline-block;
+    margin-right: 0;
+    padding-left: 0;
+}
+#reporting .form-inline label {
+    display: block;
+}
+
+
+/*********grid*********/
+
+.heading{
+	color: #666666;
+    font-size: 18px;
+}
+#reporting .buttons{
+	background-color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 18px;
+    padding: 6px;
+    vertical-align: text-top;
+}
+#reporting table{
+	margin-bottom: 0;
+    width: 100%;
+   	background-color: #FFFFFF;
+}
+#reporting table .bgcolorBase{
+	background-color: #FAFAFA;
+}
+#reporting table .bgcolorTitle{
+	background-color: #F5F8FC;
+}
+#reporting table .alignR{
+	text-align: right;
+}

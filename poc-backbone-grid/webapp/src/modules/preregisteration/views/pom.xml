@@ -1,0 +1,258 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.walmart.services</groupId>
+	<artifactId>portlets</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	
+	<parent>
+		<groupId>com.walmart.services</groupId>
+		<artifactId>mpp-container-pom</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<scm>
+		<connection>scm:git:git@gecgithub01.walmart.com:services/ServicesPortal.git </connection>
+		<developerConnection>scm:git:git@gecgithub01.walmart.com:services/ServicesPortal.git </developerConnection>
+		<url>https://gecgithub01.walmart.com/platform/ServicesPortal/tree/master/portlets</url>
+	</scm>
+
+	<properties>
+		<commons-lang.version>2.1</commons-lang.version>
+		<jee.portlet.version>2.0</jee.portlet.version>
+		<liferay.version>6.1.0</liferay.version>
+		<uc.version>0.0.1-SNAPSHOT</uc.version>
+		<jodconverter.version>2.2.1</jodconverter.version>
+		<mppcorebiz.version>0.0.1-SNAPSHOT</mppcorebiz.version>
+		<spring.framework.version>3.2.1.RELEASE</spring.framework.version>
+		<soari.version>2.0.1.RC2-SNAPSHOT</soari.version>
+		<cxf.version>2.5.2</cxf.version>
+	</properties>
+
+
+	<dependencies>
+
+		<!-- Others -->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${commons-lang.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- CXF -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http-jetty</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-rs-security-xml</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-ws-security</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-ws-policy</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxrs</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-api</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-core</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-databinding-jaxb</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+
+		<!-- Spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-expression</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-oxm</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc-portlet</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring.framework.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!-- Liferay dependencies -->
+		<dependency>
+			<groupId>javax.portlet</groupId>
+			<artifactId>portlet-api</artifactId>
+			<version>${jee.portlet.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.liferay.portal</groupId>
+			<artifactId>portal-service</artifactId>
+			<version>${liferay.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.liferay.portal</groupId>
+			<artifactId>util-bridges</artifactId>
+			<version>${liferay.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.liferay.portal</groupId>
+			<artifactId>util-taglib</artifactId>
+			<version>${liferay.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.liferay.portal</groupId>
+			<artifactId>util-java</artifactId>
+			<version>${liferay.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- UCLayer dependencies -->
+		<dependency>
+			<groupId>org.walmart.services</groupId>
+			<artifactId>uc</artifactId>
+			<version>${uc.version}</version>
+		</dependency>
+
+		<!-- PDF utility dependencies -->
+		<dependency>
+			<groupId>com.artofsolving</groupId>
+			<artifactId>jodconverter</artifactId>
+			<version>${jodconverter.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.walmart.services.core</groupId>
+			<artifactId>mpp-core-biz</artifactId>
+			<version>${mppcorebiz.version}</version>
+		</dependency>
+
+		<!-- SOARI Dependencies -->
+		<dependency>
+			<groupId>com.walmart.platform</groupId>
+			<artifactId>soari-interceptors</artifactId>
+			<version>2.0.1.RC2-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.walmart.platform</groupId>
+			<artifactId>soari-client</artifactId>
+			<version>2.0.1.RC2-SNAPSHOT</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.walmart.platform</groupId>
+			<artifactId>soari-common</artifactId>
+			<version>2.0.1.RC2-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.walmart.platform.security.iam</groupId>
+			<artifactId>iam-client</artifactId>
+			<version>2.1.17-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.walmart.platform.security.iam</groupId>
+			<artifactId>platform-iam-common</artifactId>
+			<version>2.1.17-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>

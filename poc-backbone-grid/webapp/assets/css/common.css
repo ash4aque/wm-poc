@@ -1,0 +1,290 @@
+/*****************resets********************************/
+body{
+	font: 62.5%/1.4 Arial,Verdana,sans-serif;
+	background-color: #edf6ff;
+    line-height: 20px;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+div {
+    background-repeat: no-repeat;
+}
+h1,h2,h3,h4{
+	font-family: arial;
+	font-weight: normal;
+}
+select {
+    background-image: none;
+    background-repeat: no-repeat;
+}
+input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+    margin: 0 0 0 0;
+}
+a {
+    text-decoration: none;
+    cursor:pointer;
+}
+a:hover{
+    color:#FDBB30;
+}
+a:hover {
+    text-decoration: none;
+    cursor:pointer;
+}
+
+/*****************liferay overrides**************************************/
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus, button:focus {
+    background: none;
+    border-color: none;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    border-radius: 4px 4px 4px 4px;
+    color: #555555;
+    background-image: none;
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-image: none;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 0;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, button:hover {
+    background: none repeat scroll 0 0 transparent;
+    border-color: none;
+    color: none;
+}
+/*****************bootstrap.css overrides********************************/
+.btn-warning.disabled, .btn-warning[disabled] {
+    background-color: #F89406;
+    color: #CCCCCC;
+}
+input, textarea, .uneditable-input {
+    width: 275px;
+}
+input.span6, textarea.span6, .uneditable-input.span6 {
+    width: 416px;
+}
+.well {
+    background-color: #EDF6FF;
+    border: 0 solid #FFFFFF;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 0 transparent inset;
+    margin-bottom: 0;
+    min-height: 20px;
+    padding: 0;
+}
+.container-fluid {
+    padding-left: 20px;
+    padding-right: 0;
+}
+/*****************header footer********************************/
+#footer{
+    margin: 0 auto;
+    text-align: left;
+    width: 980px;
+}
+#footer .fontfamily{
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+}
+#footer .textcolor1{
+    color:#1A75CF;
+}
+#footer .textcolor2{
+    color:#333333;
+}
+#footer .textsize11{
+    font-size:11px;
+}
+
+/*****************header footer end********************************/
+
+
+.hide-class{
+	display:none;
+}
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+.x-small{
+	width: 105px;
+}
+.x-medium{
+	width: 170px;
+}
+.x-large{
+	width: 220px;
+}
+.x-vlarge{
+	width: 283px;
+}
+.floatL{
+	float: left;
+}
+.floatR{
+	float: right;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.text-align-left{
+	text-align:left;
+}
+.mppfont{
+    font-family: Myriad Pro,Verdana,arial;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.font14{
+	font-size:14px;
+}
+.inline-block{
+	display:inline-block;
+}
+.page-header{
+  	font-family:Myriad Pro;
+  	font-size:20px;
+  	font-weight:normal;
+  	font-style:normal;
+  	text-decoration:none;
+  	color:#FF6633;
+  	border-bottom: 0;
+    margin: 0;
+    padding-bottom: 0;	
+}
+.label-header{
+	font-family:Myriad Pro;
+	font-size:14px;
+	font-weight:normal;
+	font-style:italic;
+	text-decoration:none;
+	color:#333333;
+}
+.link-btn{
+	font-family:Myriad Pro;
+	font-size:14px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#1A75CF;
+}
+.chk-box-lable{
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+}
+.chk-box-label2{
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+}
+.container-base {
+     background-color: #ffffff;
+    /* background-image: url("bg.png"); */
+    background-position: left top;
+    background-repeat: repeat-x;
+    margin: 0;
+}
+.curvedShadowBox{
+	width: 970px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* -webkit-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.5);
+	box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.5); */
+	padding: 10px;
+	position: relative;
+	min-height: 480px;
+}
+
+.curvedShadowBox h1{
+	font-size: 20px;
+	color: #666;
+	margin: 0px;
+}
+.curvedShadowBox h2{
+	color: #FF6633;
+	font-size: 18px;
+}
+.wizard-view{
+    height: auto;
+    width: auto;
+}
+.component-wrapper{
+	padding-top: 10px;
+}
+.borderBottom{
+	border-bottom: 1px solid #e4e4e4;
+}
+.fontsize12{
+    font-size: 12px;
+}
+.fontsize16{
+    font-size: 16px;
+}
+.cancel{
+	color: #1A75CF;
+    font-family: Myriad Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.MT20{margin-top: 20px;}
+.MB20{margin-bottom: 20px;}
+.MT{margin-top: 10px;}
+.MB{margin-bottom: 10px;}
+.MR{margin-right: 10px;}
+.ML{margin-left: 10px;}
+.ajax_loader {background: url("../img/spinner_squares_circle.gif") no-repeat center center transparent;width:100%;height:100%;}
+.blue-loader .ajax_loader {background: url("../img/ajax-loader_blue.gif") no-repeat center center transparent;}

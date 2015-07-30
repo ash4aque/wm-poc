@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Walmart Marketplace Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--<style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>-->
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    </head>
+  <body>
+   <!--<div class="container"> 
+    <div class="alert alert-info">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+                Sandbox environment: Rockstarbags LLC
+              </div>
+  </div>-->
+    <!-- Logo -->
+   <div class="hdrcolor">
+    <div class="container">
+      <div class="row">
+          <div class="span6">
+            <a href="template.html"><img src="img/wm_logo1.png"></a> <h3 class="logotext">Marketplace </h3></div>
+            <div class="span6" align="right">
+                <p></p>
+                <p class="white"><small>Rockstar Bags LLC</small></p>
+                <p class="yellow"><small>Welcome <Strong>Username</strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="template.html" class="white">Logout</a></small></p>
+            </div>
+      </div>  
+      
+    </div>
+   </div>
+<!-- Nav -->
+
+<div class="navbar-inner">
+      <div class="container">
+        
+              <div class="navbar navbar-static-top">
+                  <ul class="nav">
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Item <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="itemoverview.html">Overview</a></li>
+                          <li><a href="#">Item file status</a></li>
+                          <li><a href="#">Item search</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Order <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="orderoverview.html">Overview</a></li>
+                          <li><a href="orderstatus.html">Order search</a></li>
+                          </ul>
+                    </li>
+                     <li><a href="performance.html">Performance</a></li>
+                    <li class="active"><a href="reports.html">Reports</a></li>
+                    
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Account settings</a></li>
+                          <li><a href="#">Organization settings</a></li>
+                          <li><a href="#">Notification Preferences</a></li>
+                          <li class="divider"></li>
+                          <li><a href="usermanagement.html">User Management</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">Shipping settings</a></li>
+                          <li><a href="#">Tax settings</a></li>
+                          <li><a href="#">Gift settings</a></li>
+                        </ul>
+                    </li>
+                  </ul>
+                  <a href="sandbox.html"><button class="btn btn-small btn-danger" type="button">Sandbox</button></a>
+              </div>
+          
+      </div>
+    </div>  
+  
+     
+<!-- Example row of columns -->
+    <div class="container">
+
+      <h3>Reports</h3>
+      <p><!--description if any--></p>
+            <div class="alert alert-error">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+                Alert messages if any report is not found
+              </div>
+          <p></p>
+           
+            <select>
+              <option>-Select a report-</option>
+              <option selected>Reconcilliation</option>
+              <option>Tax jurisdiction</option>
+              <option>Marketplace Partner Orders Not Acknowledged</option>
+              <option>Marketplace Partner Daily Authorized Orders</option>
+              <option>Assortment Overlap</option>
+              <option>Partner Daily Items</option>
+            </select>
+          <select>
+              <option>Current month</option>
+              <option>Last 60 days</option>
+              <option>Last 90 days</option>
+              <option>Last 180 days</option>
+              <option>Date range</option>
+          </select>
+          <a href="#"><button class="btn btn-warning" type="button">View</button></a>
+         <hr>
+          <h4>Reconcilliation Report <a href="#"><i class="icon-question-sign"></i></a></h4>
+          
+          There are <strong>2</strong> reconcilliation reports for <strong>'current'</strong> month
+          <p></p>
+          <div class="bs-docs-example">
+            
+            <table class="table table-bordered table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Report date/time&nbsp;&nbsp;&nbsp;<i class="icon-chevron-down"></i></th>
+                  <th>File name</th>
+                  <th>File size</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>02/07/2013: 10:45</td>
+                  <td>RBC_rconfile02.xls</td>
+                  <td>110 KB</td>
+                  <td>
+                      <button class="btn btn-small">Download</button>
+                  </td>
+                </tr>
+                 <tr>
+                  <td>2</td>
+                  <td>02/01/2013: 10:45</td>
+                  <td>RBC_rconfile01.xls</td>
+                 <td>100 MB </td>
+                  <td>
+                      
+                      <button class="btn btn-small">Download</button>
+                      
+                      
+                    
+                     
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+        <hr>
+      <footer class="small">
+        <p><small>&copy; Copyright 2013, Wal-Mart Stores, Inc. All Rights Reserved.   <a href="#">Privacy Policy</a>   |   <a href="#">Terms of use</a>   |   <a href="#">Support</a></small></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Myriad Pro", Arial, Helvetica, Verdana, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #666666;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+.widecontainer {
+ margin-top: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.widenavcontainer {
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-brand {
+  float: left;
+  padding: 10px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Myriad Pro", Arial, Helvetica, Verdana, sans-serif;
+}
+
+.navbar
+{
+	background-color: #1a75cf;
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fdbb30;
+  background-color: transparent;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fdbb30;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+
+.table thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+  color: #666666;
+}
+/* color palette */
+.tc01
+{
+  color: #003399
+}
+.tc02
+{
+  color: #1a75cf
+}
+.tc03
+{
+  color: #ff6633
+}
+.tc04
+{
+  color: #fdbb30
+}
+
+.tc05
+{
+  color: #0b9e0b
+}
+.tc06
+{
+  color: #cc0000
+}
+.bc01
+{
+  background-color: #003399
+}
+.bc02
+{
+  background-color: #1a75cf
+}
+.bc03
+{
+  background-color: #ff6633
+}
+.bc04
+{
+  background-color: #fdbb30
+}
+.bc05
+{
+  background-color: #61bf1a
+}
+.bc07
+{
+  background-color: #cc1818;
+}
+.thhdr{background-color: #cfe2f5;}
+/* Form */
+.form-signin {
+  max-width: 500px;
+  padding: 0px;
+ /* margin: 0 auto;*/
+ /* border: 1px solid #eee;*/
+  background-color: #fff;
+  font-weight: normal;
+
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-group label {
+	color: #666666;
+	font-weight: normal;
+}
+.form-group input {
+	color: #333333;
+	font-weight: normal;
+}
+
+dt {
+  font-weight: normal;
+}
+
+dd {
+  margin-left: 0;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  max-width: 500px;
+  width: 270px;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+}
+
+label{
+  font-weight: normal;
+}
+
+  /* Buttons 
+  .btn-primary {
+  color: #ffffff;
+  background-color: #ff941a;
+  border-color: #e66800;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #ff941a;
+  border-color: #e66800;
+}*/

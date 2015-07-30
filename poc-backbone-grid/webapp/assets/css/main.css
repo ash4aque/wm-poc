@@ -1,0 +1,138 @@
+/*****************resets********************************/
+body{
+	font: 62.5%/1.4 Arial,Verdana,sans-serif;
+	background-color: #edf6ff;
+    line-height: 20px;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+div {
+    background-repeat: no-repeat;
+}
+h1,h2,h3,h4{
+	font-family: arial;
+	font-weight: normal;
+}
+select {
+    background-image: none;
+    background-repeat: no-repeat;
+}
+input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+    margin: 0 0 0 0;
+}
+a {
+    text-decoration: none;
+    cursor:pointer;
+}
+a:hover{
+    color:#FDBB30;
+}
+a:hover {
+    text-decoration: none;
+    cursor:pointer;
+}
+
+/*****************liferay overrides**************************************/
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus, button:focus {
+    background: none;
+    border-color: none;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    border-radius: 4px 4px 4px 4px;
+    color: #555555;
+    background-image: none;
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-image: none;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 0;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, button:hover {
+    background: none repeat scroll 0 0 transparent;
+    border-color: none;
+    color: none;
+}
+/*****************bootstrap.css overrides********************************/
+.btn-warning.disabled, .btn-warning[disabled] {
+    background-color: #F89406;
+    color: #CCCCCC;
+}
+input, textarea, .uneditable-input {
+    width: 275px;
+}
+input.span6, textarea.span6, .uneditable-input.span6 {
+    width: 416px;
+}
+.well {
+    background-color: #EDF6FF;
+    border: 0 solid #FFFFFF;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 0 transparent inset;
+    margin-bottom: 0;
+    min-height: 20px;
+    padding: 0;
+}
+.container-fluid {
+    padding-left: 20px;
+    padding-right: 0;
+}
+/*****************header footer********************************/
+#footer{
+    margin: 0 auto;
+    text-align: left;
+    width: 980px;
+}
+#footer .fontfamily{
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+}
+#footer .textcolor1{
+    color:#1A75CF;
+}
+#footer .textcolor2{
+    color:#333333;
+}
+#footer .textsize11{
+    font-size:11px;
+}
+
+
+
+
+
+
+
